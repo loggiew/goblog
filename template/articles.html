@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>
+Articles
+</title>
+<link rel="stylesheet" href="/css/articles.css">
+<style>
+</style>
+</head>
+<body class="body">
+    <H3>List of articles</h3>
+<ul>
+{{range .}}
+<ol>{{.Id}} - <a href="/articles/{{.Id}}">{{.Title}} - {{.Auth}}</a></ol>
+    <ul><ol class="description">{{.Description}}</ol></ul>
+{{end}}
+</ul>
+</body>
+</html>

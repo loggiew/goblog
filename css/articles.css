@@ -1,0 +1,43 @@
+.title {
+	  color: #a3b6d6;
+}
+.author {
+	color: #7e8a9e;
+}
+.content {
+	color: #7e8a9e;
+}
+.body {background-color: #0e3675;}
+ul {
+    list-style-type: circle;
+    color: #7e8a9e
+}
+a:link {
+    color: grey;
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+a:active {
+    color: blue;
+}
+h3 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: #7e8a9e;
+}
+.description{
+    margin-bottom: 30px;
+}
+
