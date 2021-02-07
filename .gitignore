@@ -14,7 +14,12 @@
 
 # vim swap files
 *.swp
+*.swo
+
+# ini files
+.ini
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
 test
+old

@@ -12,7 +12,7 @@ Articles
 <ul>
 {{range .}}
 <ol>{{.Id}} - <a href="/articles/{{.Id}}">{{.Title}} - {{.Auth}}</a></ol>
-    <ul><ol class="description">{{.Description}}</ol></ul>
+    <ul><ol class="description">{{.Description.String}}</ol></ul>
 {{end}}
 </ul>
 </body>
